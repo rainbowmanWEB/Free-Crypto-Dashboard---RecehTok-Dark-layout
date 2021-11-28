@@ -1,0 +1,20 @@
+body {
+	max-width: 1400px;
+	position: relative;
+	margin: auto;
+	font-size: 14px;
+}
+
+.wrap {
+	@include min-max (1030px, 320px);
+	margin: auto;
+}
+
+.container {
+	@include min-max (1400px, 320px);
+	margin: auto;
+}
+
+.icon_autor {
+	display: none;
+}

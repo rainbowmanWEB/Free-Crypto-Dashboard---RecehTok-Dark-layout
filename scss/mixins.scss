@@ -1,0 +1,4 @@
+@mixin min-max($max, $min: 320px) {
+	min-width: $min;
+	max-width: $max;
+}
