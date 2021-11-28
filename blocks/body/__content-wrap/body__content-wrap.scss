@@ -1,0 +1,10 @@
+.body__content-wrap {
+    position: relative;
+    margin: none;
+}
+
+@media (min-width: 1440px) {
+    .body__content-wrap {
+        margin: 7.33333vh auto;
+    }
+}

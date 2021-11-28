@@ -1,0 +1,14 @@
+.main-content-wrap {
+    background: $mainContentWrap;
+    z-index: 2;
+    max-width: 100%;
+    min-height: 100vh;
+}
+
+@media (min-width: 1440px) {
+    .main-content-wrap {
+        max-width: 90%;
+        height: 85.3333vh;
+        min-height: auto;
+    }
+}

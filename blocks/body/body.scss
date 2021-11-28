@@ -1,0 +1,24 @@
+.body {
+    background: linear-gradient(45deg, $bodyBackgroundGradient1, $bodyBackgroundGradient2);
+    //min-height: auto;
+}
+
+@media (min-width: 1440px) {
+    .body {
+        &::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 623px;
+            height: 623px;
+            background: transparent;
+            border: solid 213px $circleBorderColor;
+            display: block;
+            box-sizing: content-box;
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1;
+        }
+    }
+}
