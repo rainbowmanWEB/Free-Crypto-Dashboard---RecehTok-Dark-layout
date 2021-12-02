@@ -1,0 +1,21 @@
+.logo__bold {
+    text-decoration: none;
+    font-family: HelveticaNeueCyr;
+    font-size: 18px;
+    line-height: 21px;
+    color: $logoColor;
+    font-weight: 500;
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .logo__bold {
+        display: inline;
+    }
+}
+
+@media (min-width: 2000px) {
+    .logo__bold {
+        font-size: calc(18px + 1vw);
+    }
+}

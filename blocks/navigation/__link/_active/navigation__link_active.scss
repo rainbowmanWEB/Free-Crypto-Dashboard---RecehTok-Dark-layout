@@ -1,0 +1,5 @@
+.navigation__link_active .navigation__icon,
+.navigation__link_active .navigation__link-text{
+    fill: $navigationLinkActiveColor;
+    color: $navigationLinkActiveColor;
+}

@@ -3,6 +3,7 @@
     z-index: 2;
     max-width: 100%;
     min-height: 100vh;
+    overflow-y: auto;
 }
 
 @media (min-width: 1440px) {
@@ -10,5 +11,11 @@
         max-width: 90%;
         height: 85.3333vh;
         min-height: auto;
+    }
+}
+
+@media (min-width: 1600px) {
+    .main-content-wrap {
+        min-height: 1024px;
     }
 }

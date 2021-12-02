@@ -1,0 +1,31 @@
+.navigation__link_new-message {
+    &::after {
+        content: "";
+        display: inline-block;
+        width: 6px;
+        height: 6px;
+        background:linear-gradient(315deg, $navigationLinkNewMessageGradient1, $navigationLinkNewMessageGradient2);
+        border-radius: 50%;
+        position: absolute;
+        right: -7px;
+        bottom: 2%;
+    }
+}
+
+@media (min-width: 768px) {
+    .navigation__link_new-message {
+        &::after {
+            right: 0;
+            top: 50%;
+        }
+    }
+}
+
+@media (min-width: 2000px) {
+    .navigation__link_new-message {
+        &::after {
+            width: calc(6px + 0.3vw);
+            height: calc(6px + 0.3vw);
+        }
+    }
+}

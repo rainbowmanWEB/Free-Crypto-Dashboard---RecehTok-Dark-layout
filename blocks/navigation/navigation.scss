@@ -1,0 +1,39 @@
+.navigation {
+    position: relative;
+    padding: 0 10px 0 15px;
+    margin-top: 50px;
+
+    &::before {
+        content: "";
+        width: 12px;
+        height: 12px;
+        display: block;
+        position: absolute;
+        background: $navigationLinkActiveColor;
+        border-radius: 50%;
+        top: 0;
+        left: 0;
+        transform: translateX(-50%);
+        animation: navigationDotShadow 5s infinite;
+    }
+}
+
+@media (min-width: 768px) {
+    .navigation {
+        margin-top: 70px;
+        padding: 0 10px 0 20px;
+    }
+}
+
+@media (min-width: 968px) {
+    .navigation {
+        margin-top: 106px;
+        padding: 0 20px 0 40px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .navigation {
+        margin-top: 156px;
+    }
+}

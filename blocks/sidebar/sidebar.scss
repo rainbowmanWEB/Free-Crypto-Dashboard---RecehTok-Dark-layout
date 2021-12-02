@@ -1,0 +1,18 @@
+.sidebar {
+    background: linear-gradient($sidebarBackgroundGradient1 65%, $sidebarBackgroundGradient2 85%, $sidebarBackgroundGradient3 100%);
+    height: initial;
+    min-height: inherit;
+    width: 40px;
+}
+
+@media (min-width: 768px) {
+    .sidebar {
+       width: 20.833%;
+    }
+}
+
+@media (min-width: 1440px) {
+    .sidebar {
+        min-height: 100%;
+    }
+}
