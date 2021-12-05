@@ -1,0 +1,28 @@
+.header__notification-number {
+    font-family: HelveticaNeueCyr;
+    font-weight: 500;
+    color: $logoColor;
+    transform: translateY(-21%);
+    display: inline-block;
+    font-size: 18px;
+    position: relative;
+}
+
+@media (min-width: 768px) {
+    .header__notification-number {
+        transform: translateY(-20%);
+    }
+}
+
+@media (min-width: 1440px) {
+    .header__notification-number {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 2000px) {
+    .header__notification-number {
+        font-size: calc(12px + 1vw);
+        transform: translateY(-16%);
+    }
+}

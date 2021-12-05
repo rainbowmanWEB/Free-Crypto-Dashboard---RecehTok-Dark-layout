@@ -1,0 +1,23 @@
+.header__profile-button-icon {
+    fill: $headerDescriptionColor;
+    width: 12px;
+    height: 10px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-60%);
+    display: inline-block;
+}
+
+@media (min-width: 1440px) {
+    .header__profile-button-icon {
+        width: 10px;
+        height: 8px;
+    }
+}
+
+@media (min-width: 2000px) {
+    .header__profile-button-icon {
+        width: calc(10px + 1vw);
+        height: calc(8px + 1vw);
+    }
+}

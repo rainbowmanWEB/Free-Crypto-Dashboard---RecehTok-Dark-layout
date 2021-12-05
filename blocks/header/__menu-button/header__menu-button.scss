@@ -1,0 +1,33 @@
+.header__menu-button {
+    margin-right: 20px;
+}
+
+@media (min-width: 480px) {
+    .header__menu-button {
+        margin-right: 25px;
+    }
+}
+
+@media (min-width: 768px) {
+    .header__menu-button {
+        margin-right: 30px;
+    }
+}
+
+@media (min-width: 968px) {
+    .header__menu-button {
+        margin-right: 25px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .header__menu-button {
+        margin-right: 40px;
+    }
+}
+
+@media (min-width: 2000px) {
+    .header__search-button {
+        margin-right: calc(40px + 0.2vw);
+    }
+}

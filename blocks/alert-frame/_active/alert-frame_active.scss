@@ -1,0 +1,9 @@
+.alert-frame_active {
+    display: flex;
+}
+
+@media (min-width: 768px) {
+    .alert-frame_active {
+        display: block;
+    }
+}

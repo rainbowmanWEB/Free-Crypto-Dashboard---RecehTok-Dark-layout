@@ -1,0 +1,12 @@
+.header__profile-button {
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+@media (min-width: 480px) {
+    .header__controls-block {
+        margin-top: auto;
+    }
+}

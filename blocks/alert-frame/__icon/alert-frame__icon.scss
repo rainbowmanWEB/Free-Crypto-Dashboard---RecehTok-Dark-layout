@@ -1,0 +1,25 @@
+.alert-frame__icon {
+    width: 76px;
+    height: 76px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+@media (min-width: 480px) {
+    .alert-frame__icon {
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .alert-frame__icon {
+        margin: auto;
+    }
+}
+
+@media (min-width: 2000px) {
+    .alert-frame__icon {
+        width: calc(76px + 3vw);
+        height: calc(76px + 3vw);
+    }
+}

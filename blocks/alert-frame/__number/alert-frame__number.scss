@@ -1,0 +1,33 @@
+.alert-frame__number {
+    font-family: HelveticaNeueCyr;
+    font-weight: 500;
+    color: $alertFrameNumberColor;
+    margin: 0 5px;
+}
+
+@media (min-width: 480px) {
+    .alert-frame__number {
+        margin: 0 5px;
+        font-size: 1.1rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .alert-frame__number {
+        margin: 0 10px;
+        font-size: 1.3rem;
+    }
+}
+
+@media (min-width: 1440px) {
+    .alert-frame__number {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 2000px) {
+    .alert-frame__number {
+        margin: 0 calc(10px + 0.3vw);
+        font-size: calc(16px + 0.7vw);
+    }
+}

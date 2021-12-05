@@ -1,0 +1,29 @@
+.header__notification {
+    background: linear-gradient(45deg, $headerNotificationBackgroundGradient1, $headerNotificationBackgroundGradient2);
+    display: inline-block;
+    padding: 5px 6px 1px 6px;;
+    border-radius: 40%;
+    fill: $logoColor;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+@media (min-width: 968px) {
+    .header__notification {
+        margin-right: 15px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .header__notification {
+        padding: 8px 9px 4px 9px;
+        margin-right: 25px;
+    }
+}
+
+@media (min-width: 2000px) {
+    .header__notification {
+        padding: calc(8px + 0.3vw) calc(9px + 0.3vw) calc(4px + 0.1vw) calc(9px + 0.3vw);
+        margin-right: calc(25px + 0.5vw);
+    }
+}
