@@ -1,0 +1,29 @@
+.notifications__time {
+    font-family: HelveticaNeueCyr;
+    font-weight: 400;
+    color: $notificationsTimeColor;
+    line-height: 1.1rem;
+    font-size: 0.9rem;
+    margin-top: 8px;
+}
+
+@media (min-width: 480px) {
+    .notifications__time {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 1440px) {
+    .notifications__time {
+        line-height: 15px;
+        font-size: 12.5px;
+    }
+}
+
+@media (min-width: 2000px) {
+    .notifications__time {
+        line-height: calc(15px + 0.4vw);
+        font-size: calc(12.5px + 0.7vw);
+        margin-top: calc(8px + 0.2vw);
+    }
+}

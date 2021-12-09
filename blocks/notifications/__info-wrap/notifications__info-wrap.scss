@@ -1,0 +1,18 @@
+.notifications__info-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 4px;
+}
+
+@media (min-width: 968px) {
+    .notifications__info-wrap {
+        margin-top: 8px;
+    }
+}
+
+@media (min-width: 2000px) {
+    .notifications__info-wrap {
+        margin-top: calc(18px + 0.2vw);
+    }
+}

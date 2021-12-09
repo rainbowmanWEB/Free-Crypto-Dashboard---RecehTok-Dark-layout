@@ -1,0 +1,19 @@
+.notifications__info-crypt {
+    color: $notificationsInfoCryptColor;
+    font-family: HelveticaNeueCyr;
+    line-height: 16px;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+@media (min-width: 1440px) {
+    .notifications__info-crypt {
+        font-size: 13.5px;
+    }
+}
+
+@media (min-width: 2000px) {
+    .notifications__info-crypt {
+        font-size: calc(13.5px + 0.7vw);
+    }
+}

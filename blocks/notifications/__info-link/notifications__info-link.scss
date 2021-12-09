@@ -1,0 +1,24 @@
+.notifications__info-link {
+    text-decoration: none;
+    font-family: HelveticaNeueCyr;
+    font-weight: 400;
+    color: $alertFrameHistoryLinkColor;
+    line-height: 16px;
+    font-size: 1rem;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+@media (min-width: 1440px) {
+    .notifications__info-link {
+        font-size: 13.5px;
+    }
+}
+
+@media (min-width: 2000px) {
+    .notifications__info-link {
+        font-size: calc(13.5px + 0.5vw);
+    }
+}

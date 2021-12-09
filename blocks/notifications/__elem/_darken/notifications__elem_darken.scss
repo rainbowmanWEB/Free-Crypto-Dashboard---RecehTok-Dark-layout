@@ -1,0 +1,44 @@
+.notifications__elem_darken {
+    .notifications__avatar {
+        &::after {
+            content: "1";
+            width: 22px;
+            height: 22px;
+            border-radius: 50%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: rgba(0, 0, 0, 0.6);
+        }
+    }
+
+    .notifications__name {
+        color: $notificationsNameDarkenColor;
+    }
+
+    .notifications__text {
+        color: $notificationsTimeColor;
+    }
+}
+
+@media (min-width: 768px) {
+    .notifications__elem_darken {
+        .notifications__avatar {
+            &::after {
+                width: 43px;
+                height: 43px;
+            }
+        }
+    }
+}
+
+@media (min-width: 2000px) {
+    .notifications__elem_darken {
+        .notifications__avatar {
+            &::after {
+                width: calc(43px + 0.5vw);
+                height: calc(43px + 0.5vw);
+            }
+        }
+    }
+}

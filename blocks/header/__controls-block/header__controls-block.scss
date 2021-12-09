@@ -1,11 +1,26 @@
 .header__controls-block {
-    padding: 0 15px;
     order: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     width: 100%;
     align-items: center;
+    position: fixed;
+    top: 15px;
+    left: 40px;
+    background: $mainContentWrap;
+    z-index: 10;
+    max-width: calc(100% - 40px);
+}
+
+@media (min-width: 768px) {
+    .header__controls-block {
+        position: relative;
+        padding: 0 15px;
+        top: auto;
+        left: auto;
+        background: transparent;
+    }
 }
 
 @media (min-width: 968px) {

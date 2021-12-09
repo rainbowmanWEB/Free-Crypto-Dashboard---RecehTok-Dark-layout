@@ -1,0 +1,28 @@
+.notifications__text {
+    font-family: HelveticaNeueCyr;
+    font-weight: 400;
+    line-height: 16px;
+    color: $notificationsTextColor;
+    margin-top: 4px;
+    font-size: 1rem;
+}
+
+@media (min-width: 968px) {
+    .notifications__text {
+        margin-top: 8px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .notifications__text {
+        font-size: 13.5px;
+    }
+}
+
+@media (min-width: 2000px) {
+    .notifications__text {
+        font-size: calc(13.5px + 0.7vw);
+        margin-top: calc(8px + 0.2vw);
+        line-height: calc(16px + 0.5vw);
+    }
+}

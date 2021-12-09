@@ -1,14 +1,22 @@
 .sidebar {
-    background: linear-gradient($sidebarBackgroundGradient1 65%, $sidebarBackgroundGradient2 85%, $sidebarBackgroundGradient3 100%);
+    background: #201D47;
     height: initial;
     min-height: inherit;
     width: 40px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 10;
 }
 
 @media (min-width: 768px) {
     .sidebar {
+        background: linear-gradient($sidebarBackgroundGradient1 65%, $sidebarBackgroundGradient2 85%, $sidebarBackgroundGradient3 100%);
        width: 20.833%;
        min-width: 138px;
+       position: relative;
+       left: auto;
+       top: auto;
     }
 }
 

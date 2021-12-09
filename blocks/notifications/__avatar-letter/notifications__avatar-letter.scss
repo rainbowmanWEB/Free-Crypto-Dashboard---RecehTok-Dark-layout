@@ -1,0 +1,40 @@
+.notifications__avatar-letter {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 2px;
+    border-radius: 50%;
+    border-radius: 50%;
+    grid-column: 1 / 2;
+    grid-row: 1 / 6;
+    width: 22px;
+    height: 22px;
+    color: $logoColor;
+    font-family: HelveticaNeueCyr;
+    font-weight: 700;
+    line-height: 20px;
+    font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+    .notifications__avatar-letter {
+        font-size: 1.5rem;
+        padding: 14px;
+        width: 43px;
+        height: 43px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .notifications__avatar-letter {
+        font-size: 16.9976px;
+    }
+}
+
+@media (min-width: 2000px) {
+    .notifications__avatar-letter {
+        font-size: calc(17px + 0.5vw);
+        line-height: calc(20px + 0.5vw);
+        width: calc(43px + 0.5vw);
+        height: calc(43px + 0.5vw);
+    }
+}

@@ -1,0 +1,51 @@
+.notifications__elem {
+    &:hover {
+        background: linear-gradient(
+        135deg, $notificationsElemGradient1, $notificationsElemGradient2);
+
+        .notifications__menu-icon {
+            display: block;
+        }
+
+    }
+    display: grid;
+    grid-template-columns: minmax(22px, 11%) 89%;
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    position: relative;
+    padding: 4px 10px 6px 4px;
+}
+
+@media (min-width: 768px) {
+    .notifications__elem {
+        grid-template-columns: minmax(43px, 11%) 89%;
+    }
+}
+
+@media (min-width: 768px) {
+    .notifications__elem {
+        padding: 6px 30px 8px 10px;
+        grid-column-gap: 12px;
+    }
+}
+
+@media (min-width: 968px) {
+    .notifications__elem {
+        padding: 10px 50px 12px 15px;
+        grid-column-gap: 14px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .notifications__elem {
+        padding: 13px 60px 15px 20px;
+        grid-column-gap: 18px;
+    }
+}
+
+@media (min-width: 2000px) {
+    .notifications__elem {
+        padding: calc(13px + 0.2vw) 13px calc(60px + 0.2vw) calc(15px + 0.2vw) calc(20px + 0.2vw);
+        grid-column-gap: calc(18px + 0.2vw);
+    }
+}

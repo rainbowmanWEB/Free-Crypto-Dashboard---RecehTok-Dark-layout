@@ -1,0 +1,19 @@
+.notifications__avatar-img {
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+}
+
+@media (min-width: 768px) {
+    .notifications__avatar-img {
+        width: 43px;
+        height: 43px;
+    }
+}
+
+@media (min-width: 2000px) {
+    .notifications__avatar-img {
+        width: calc(43px + 0.5vw);
+        height: calc(43px + 0.5vw);
+    }
+}

@@ -1,0 +1,13 @@
+.notifications__menu-icon {
+    width: 20px;
+    height: 20px;
+    fill: $notificationsTimeColor;
+    display: none;
+}
+
+@media (min-width: 2000px) {
+    .notifications__menu-icon {
+        width: calc(20px + 0.2vw);
+        height: calc(20px + 0.2vw);
+    }
+}

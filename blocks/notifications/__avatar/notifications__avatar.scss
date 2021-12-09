@@ -1,0 +1,15 @@
+.notifications__avatar {
+    border-radius: 50%;
+    grid-column: 1 / 2;
+    grid-row: 1 / 6;
+    position: relative;
+    width: 43px;
+    height: 43px;
+}
+
+@media (min-width: 2000px) {
+    .notifications__avatar {
+        width: calc(43px + 0.5vw);
+        height: calc(43px + 0.5vw);
+    }
+}
