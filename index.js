@@ -19,3 +19,6 @@ import arrowUpRight from './images/svg-icons/arrow-up-right.svg';
 import './blocks/notifications/__info-chart-wrap/js/notifications__info-chart.js';
 import './blocks/alert-frame/__dismis/js/alert-frame__dismis.js';
 import './blocks/header/__notification/js/header__notification.js';
+import bitcoin from './images/svg-icons/bitcoin.svg';
+import ethereum from './images/svg-icons/ethereum.svg';
+import litecoin from './images/svg-icons/litecoin.svg';
