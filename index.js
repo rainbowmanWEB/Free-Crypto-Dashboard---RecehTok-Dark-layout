@@ -22,3 +22,5 @@ import './blocks/header/__notification/js/header__notification.js';
 import bitcoin from './images/svg-icons/bitcoin.svg';
 import ethereum from './images/svg-icons/ethereum.svg';
 import litecoin from './images/svg-icons/litecoin.svg';
+import './blocks/wallets/__info-chart/js/wallets__info-chart.js';
+import './blocks/wallets/__elem/js/wallets__elem.js';

@@ -1,0 +1,12 @@
+.wallets__elem-number {
+    font-family: HelveticaNeueCyr;
+    font-weight: 400;
+    font-size: 17px;
+    opacity: 0.7;
+    color: $logoColor;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    line-height: 20px;
+    text-align: right;
+    align-self: baseline;
+}

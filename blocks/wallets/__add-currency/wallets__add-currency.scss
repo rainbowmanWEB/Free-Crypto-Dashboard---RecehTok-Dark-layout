@@ -1,0 +1,21 @@
+.wallets__add-currency {
+    grid-column: 1 / 4;
+    grid-row: 1 / 3;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: HelveticaNeueCyr;
+    font-size: 13px;
+    color: $logoColor;
+    line-height: 15px;
+    mix-blend-mode: normal;
+    opacity: 0.2;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+
+    &:hover {
+        opacity: 0.7;
+    }
+}

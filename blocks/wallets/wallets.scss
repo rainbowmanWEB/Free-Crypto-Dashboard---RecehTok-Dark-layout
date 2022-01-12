@@ -1,0 +1,10 @@
+.wallets {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 1440px) {
+    .wallets {
+        padding: 20px 64px;
+    }
+}

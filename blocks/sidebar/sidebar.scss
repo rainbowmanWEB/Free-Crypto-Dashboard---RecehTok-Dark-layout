@@ -12,11 +12,13 @@
 @media (min-width: 768px) {
     .sidebar {
         background: linear-gradient($sidebarBackgroundGradient1 65%, $sidebarBackgroundGradient2 85%, $sidebarBackgroundGradient3 100%);
-       width: 20.833%;
-       min-width: 138px;
-       position: relative;
-       left: auto;
-       top: auto;
+        grid-column: 1 / 2;
+        grid-row: 1 / 3;
+        width: 100%;
+        min-width: 138px;
+        position: relative;
+        left: auto;
+        top: auto;
     }
 }
 

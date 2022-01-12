@@ -1,0 +1,16 @@
+.wallets__elem_active {
+    background: linear-gradient(45deg, $walletsElemActiveBackground1, $walletsElemActiveBackground2, $walletsElemActiveBackground3, $walletsElemActiveBackground4, $walletsElemActiveBackground5);
+
+    .wallets__icon,
+    .wallets__info-icon {
+        fill: $logoColor;
+    }
+
+    .wallets__elem-number {
+        opacity: 1;
+    }
+
+    .wallets__info-number {
+        color: $logoColor;
+    }
+}

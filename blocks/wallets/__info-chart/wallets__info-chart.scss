@@ -1,0 +1,14 @@
+.wallets__info-chart {
+
+}
+#wallets__info-chart-mini-btc #graph-mini {
+    stroke: url(#gradient-btc);
+}
+
+#wallets__info-chart-mini-eth #graph-mini {
+    stroke: url(#gradient-eth);
+}
+
+#wallets__info-chart-mini-ltc #graph-mini {
+    stroke: url(#gradient-ltc);
+}

@@ -1,0 +1,13 @@
+.wallets__info-chart-wrap {
+    width: 40px;
+    height: 28px;
+    margin: 0;
+    background-color: transparent;
+}
+
+@media (min-width: 2000px) {
+    .wallets__info-chart-wrap {
+        width: calc(50px + 0.2vw);
+        height: calc(28px + 0.2vw);
+    }
+}

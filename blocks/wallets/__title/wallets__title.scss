@@ -1,0 +1,15 @@
+.wallets__title {
+    flex-basis: 100%;
+    font-family: HelveticaNeueCyr;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: $notificationsTitleColor;
+}
+
+@media (min-width: 1440px) {
+    .wallets__title {
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.02em;
+    }
+}
