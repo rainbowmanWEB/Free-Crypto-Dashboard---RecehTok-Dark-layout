@@ -14,8 +14,25 @@
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
+    width: 100%;
+    font-size: 1.2em;
+    line-height: 1.31em;
 
     &:hover {
         opacity: 0.7;
+    }
+}
+
+@media (min-width: 1440px) {
+    .wallets__add-currency {
+        font-size: 13px;
+        line-height: 15px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .wallets__add-currency {
+        font-size: calc(15px + 0.7vw);
+        line-height: calc(13px + 0.7vw);
     }
 }

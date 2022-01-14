@@ -6,7 +6,6 @@ document.addEventListener('DOMContentLoaded', ()=> {
         element.addEventListener('click', (e) => {
             e.preventDefault();
             document.querySelector('.notifications').classList.toggle('notifications_active');
-            console.log(document.querySelector('.notifications'));
         });
 
     });

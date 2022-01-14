@@ -1,12 +1,26 @@
 .wallets__elem-number {
     font-family: HelveticaNeueCyr;
     font-weight: 400;
-    font-size: 17px;
+    font-size: 1.5em;
     opacity: 0.7;
     color: $logoColor;
     grid-column: 2 / 3;
     grid-row: 1 / 2;
-    line-height: 20px;
+    line-height: 1.7em;
     text-align: right;
     align-self: baseline;
+}
+
+@media (min-width: 1440px) {
+    .wallets__elem-number {
+        font-size: 17px;
+        line-height: 20px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .wallets__elem-number {
+        font-size: calc(17px + 0.7vw);
+        line-height: calc(20px + 0.7vw);
+    }
 }

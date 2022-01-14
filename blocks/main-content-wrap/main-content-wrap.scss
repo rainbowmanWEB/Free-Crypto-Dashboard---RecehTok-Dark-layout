@@ -3,15 +3,16 @@
     z-index: 2;
     max-width: 100%;
     min-height: 100vh;
-    display: grid;
-    //grid-template: 100px 1fr / 20.833% 79%;
-    grid-template-rows: 150px 1fr;
-    grid-template-columns: 20.833% 79%;
-    // grid-template-areas: 
-    //                         "sidebar header"
-    //                         "sidebar main";
-    grid-auto-flow: row;
     position: relative;
+}
+
+@media (min-width: 768px) {
+    .main-content-wrap {
+        display: grid;
+        grid-template-rows: 150px 1fr;
+        grid-template-columns: 20.833% 79%;
+        grid-auto-flow: row;
+    }
 }
 
 @media (min-width: 1440px) {

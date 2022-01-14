@@ -4,12 +4,22 @@
     text-transform: uppercase;
     font-weight: 500;
     color: $notificationsTitleColor;
+    font-size: 1em;
+    line-height: 1.2em;
+    letter-spacing: 0.02em;
 }
 
 @media (min-width: 1440px) {
     .wallets__title {
         font-size: 12px;
         line-height: 14px;
-        letter-spacing: 0.02em;
+    }
+}
+
+@media (min-width: 1600px) {
+    .wallets__title {
+        font-size: calc(12px + 0.6vw);
+        line-height: calc(14px + 0.6vw);
+        letter-spacing: calc(0.02em + 0.06vw);
     }
 }

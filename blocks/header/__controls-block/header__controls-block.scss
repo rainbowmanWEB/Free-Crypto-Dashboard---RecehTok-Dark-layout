@@ -6,7 +6,7 @@
     width: 100%;
     align-items: center;
     position: fixed;
-    top: 15px;
+    top: 0;
     left: 40px;
     background: $mainContentWrap;
     z-index: 10;
@@ -37,8 +37,9 @@
     }
 }
 
-@media (min-width: 2000px) {
+@media (min-width: 1600px) {
     .header__controls-block {
         padding-right: calc(35px + 1vw);
+        flex-basis: 50%;
     }
 }

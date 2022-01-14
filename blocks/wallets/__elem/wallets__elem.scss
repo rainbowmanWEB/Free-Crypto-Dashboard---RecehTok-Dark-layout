@@ -3,15 +3,29 @@
     border-radius: 8%;
     display: grid;
     grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1.2fr 1fr 0.8fr;
+    grid-template-columns: 1fr 1fr 0.8fr;
     grid-auto-flow: row;
-    width: 190px;
+    width: 180px;
     cursor: pointer;
     min-height: 101px;
     position: relative;
+    margin-right: 15px;
+    margin-top: 20px;
+    padding: 10px 8px;
 
     &:last-child {
         border: 2px dashed $walletElemBorder;
+    }
+
+    &:hover .wallets__elem-number,
+    &:hover .wallets__elem-name {
+        opacity: 1;
+    }
+}
+
+@media (min-width: 1440px) {
+    .wallets__elem {
+        width: 190px;
     }
 }
 
@@ -19,6 +33,15 @@
     .wallets__elem {
         margin-top: 24px;
         margin-right: 20px;
-        padding: 16px 15px;
+        padding: 16px 13px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .wallets__elem {
+        margin-top: calc(24px + 0.7vw);
+        margin-right: calc(20px + 0.7vw);
+        padding: calc(16px + 0.7vw) calc(13px + 0.7vw);
+        width: calc(190px + 5vw);
     }
 }

@@ -1,10 +1,19 @@
 .wallets {
     display: flex;
     flex-wrap: wrap;
+    padding: 20px 30px;
+    padding: 66px 25px 0 65px;
 }
 
 @media (min-width: 1440px) {
     .wallets {
         padding: 20px 64px;
+    }
+}
+
+
+@media (min-width: 1600px) {
+    .wallets {
+        padding: calc(40px + 0.7vw) 28px;
     }
 }
