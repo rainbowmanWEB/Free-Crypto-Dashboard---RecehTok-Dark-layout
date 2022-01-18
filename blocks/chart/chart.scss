@@ -17,9 +17,20 @@
     animation: lineani 1.3s linear forwards;
   }
 
-  #graph-mini {
+  .chart-line-mini path{
     stroke: url(#gradient-1);
     stroke-width: 6;
+    fill: transparent;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    -moz-animation: lineani 1.3s linear forwards;
+    -webkit-animation: lineani 1.3s linear forwards;
+    animation: lineani 1.3s linear forwards;
+  }
+
+  .big-chart-line path{
+    stroke: url(#gradient-1);
+    stroke-width: 1;
     fill: transparent;
     stroke-linecap: round;
     stroke-linejoin: round;

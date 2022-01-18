@@ -99,7 +99,7 @@
                     <div class="wallets__info-wrap">
                         <div id="wallets__info-chart-wrap-btc" class="chart wallets__info-chart-wrap">
                             <div class="chart-svg"></div>
-                                <svg class="wallets__info-chart  chart-line" id="wallets__info-chart-mini-btc" viewBox="0 0 80 40">
+                                <svg class="wallets__info-chart  chart-line chart-line-mini" id="wallets__info-chart-mini-btc" viewBox="0 0 80 40">
                                     <defs>
                                     <clipPath id="clip" x="0" y="0" width="80" height="40" >
                                         <rect id="clip-rect" x="-80" y="0" width="77" height="38.7"/>
@@ -132,7 +132,7 @@
                     <div class="wallets__info-wrap">
                         <div id="wallets__info-chart-wrap-eth" class="chart   wallets__info-chart-wrap">
                             <div class="chart-svg"></div>
-                                <svg class="wallets__info-chart chart-line" id="wallets__info-chart-mini-eth" viewBox="0 0 80 40">
+                                <svg class="wallets__info-chart chart-line chart-line-mini" id="wallets__info-chart-mini-eth" viewBox="0 0 80 40">
                                     <defs>
                                     <clipPath id="clip" x="0" y="0" width="80" height="40" >
                                         <rect id="clip-rect" x="-80" y="0" width="77" height="38.7"/>
@@ -165,16 +165,16 @@
                     <div class="wallets__info-wrap">
                         <div id="wallets__info-chart-wrap-ltc" class="chart wallets__info-chart-wrap">
                             <div class="chart-svg"></div>
-                                <svg class="wallets__info-chart notifications__info-chart chart-line" id="wallets__info-chart-mini-ltc" viewBox="0 0 80 40">
+                                <svg class="wallets__info-chart notifications__info-chart chart-line chart-line-mini" id="wallets__info-chart-mini-ltc" viewBox="0 0 80 40">
                                     <defs>
                                     <clipPath id="clip" x="0" y="0" width="80" height="40" >
                                         <rect id="clip-rect" x="-80" y="0" width="77" height="38.7"/>
                                     </clipPath>
                             
                                     <linearGradient id="gradient-ltc" gradientTransform="rotate(135)">
-                                        <stop offset="0" stop-color="rgba(48, 154, 255, 1)" />
-                                        <stop offset="50" stop-color="rgba(83, 100, 174, 1)" />
-                                        <stop offset="100" stop-color="rgba(112, 54, 107, 0.00001)" />
+                                        <stop offset="0" stop-color="rgba(80, 227, 194, 1)" />
+                                <stop offset="50" stop-color="rgba(83, 201, 174, 1)" />
+                                <stop offset="100" stop-color="rgba(90, 197, 165, 0.00001)" />
                                     </linearGradient>
                                     
                                 </defs>
@@ -194,6 +194,48 @@
                         +add currency
                     </a>
                 </div>
+            </section>
+            <section class="big-chart">
+                <div id="big-chart-wrap" class="chart   ">
+                    <div class="chart-svg"></div>
+                        <svg class="big-chart-line chart-line" id="big-chart" viewBox="0 0 80 40">
+                            <defs>
+                            <clipPath id="clip" x="0" y="0" width="80" height="40" >
+                                <rect id="clip-rect" x="-80" y="0" width="77" height="38.7"/>
+                            </clipPath>
+                            <linearGradient id="big-chart-gradient-btc" gradientTransform="rotate(135)">
+                                <stop offset="0" stop-color="rgba(48, 154, 255, 1)" />
+                                <stop offset="50" stop-color="rgba(83, 100, 174, 1)" />
+                                <stop offset="100" stop-color="rgba(112, 54, 107, 0.00001)" />
+                            </linearGradient>
+                            <linearGradient id="big-chart-gradient-btc-poly" >
+                                <stop offset="0" stop-color="rgba(48, 154, 255, 0.3)" />
+                                <stop offset="50" stop-color="rgba(83, 100, 174, 0.05)" />
+                                <stop offset="100" stop-color="rgba(112, 54, 107, 0.00001)" />
+                            </linearGradient>
+                            <linearGradient id="big-chart-gradient-eth" gradientTransform="rotate(135)">
+                                <stop offset="0" stop-color="rgba(163, 48, 255, 1)" />
+                                <stop offset="50" stop-color="rgba(188, 61, 203, 1)" />
+                                <stop offset="100" stop-color="rgba(227, 80, 122, 0.00001)" />
+                            </linearGradient>
+                            <linearGradient id="big-chart-gradient-eth-poly" >
+                                <stop offset="0" stop-color="rgba(163, 48, 255, 0.3)" />
+                                <stop offset="50" stop-color="rgba(188, 61, 203, 0.05)" />
+                                <stop offset="100" stop-color="rgba(227, 80, 122, 0.00001)" />
+                            </linearGradient>
+                            <linearGradient id="big-chart-gradient-ltc" gradientTransform="rotate(135)">
+                                <stop offset="0" stop-color="rgba(80, 227, 194, 1)" />
+                                <stop offset="50" stop-color="rgba(83, 201, 174, 1)" />
+                                <stop offset="100" stop-color="rgba(90, 197, 165, 0.00001)" />
+                            </linearGradient>
+                            <linearGradient id="big-chart-gradient-ltc-poly" >
+                                <stop offset="0" stop-color="rgba(80, 227, 194, 0.3)" />
+                                <stop offset="50" stop-color="rgba(83, 201, 174, 0.05)" />
+                                <stop offset="100" stop-color="rgba(90, 197, 165, 0.00001)" />
+                            </linearGradient>
+                        </defs>
+                        </svg>
+                    </div>
             </section>
         </main>
         
@@ -385,7 +427,7 @@
             <div class="notifications__info-wrap">
                 <div id="notifications__info-chart-wrap" class="chart notifications__info-chart-wrap">
                     <div class="chart-svg"></div>
-                        <svg class="notifications__info-chart chart-line" id="notifications__info-chart-mini-1" viewBox="0 0 80 40">
+                        <svg class="notifications__info-chart chart-line chart-line-mini" id="notifications__info-chart-mini-1" viewBox="0 0 80 40">
                             <defs>
                             <clipPath id="clip" x="0" y="0" width="80" height="40" >
                                 <rect id="clip-rect" x="-80" y="0" width="77" height="38.7"/>

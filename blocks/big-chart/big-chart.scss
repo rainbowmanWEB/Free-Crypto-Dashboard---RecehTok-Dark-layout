@@ -1,0 +1,22 @@
+.big-chart {
+width: 100%;
+
+    #graph-big-btc {
+        stroke: url(#big-chart-gradient-btc);
+    }
+    #graph-big-eth {
+        stroke: url(#big-chart-gradient-eth);
+    }
+    #graph-big-ltc {
+        stroke: url(#big-chart-gradient-ltc);
+    }
+    #poly-big-btc {
+        fill: url(#big-chart-gradient-btc-poly);
+    }
+    #poly-big-eth {
+        fill: url(#big-chart-gradient-eth-poly);
+    }
+    #poly-big-ltc {
+        fill: url(#big-chart-gradient-ltc-poly);
+    }
+}

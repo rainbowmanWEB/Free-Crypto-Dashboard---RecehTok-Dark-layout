@@ -162,6 +162,15 @@ export default class chart {
         //console.log(this.crypts[points]);
         this.drawLineGraph(graph, minipoints, container, id, true);
     }
+
+    bigChart (graph, pointsArr, container, id) {
+        console.log(pointsArr);
+        let count = 0;
+        for (let point of pointsArr) {
+            this.drawLineGraph(graph, this.crypts[point], container, id[count], false);
+            count++;
+        }
+    }
     
     
 }
