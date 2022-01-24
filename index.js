@@ -25,3 +25,4 @@ import litecoin from './images/svg-icons/litecoin.svg';
 import './blocks/wallets/__info-chart/js/wallets__info-chart.js';
 import './blocks/wallets/__elem/js/wallets__elem.js';
 import './blocks/big-chart/js/big-chart.js';
+import bigChartBg from './images/big-chart-bg.png';
