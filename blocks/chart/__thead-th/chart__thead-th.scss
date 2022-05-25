@@ -1,0 +1,17 @@
+.chart__thead-th {
+    font-family: HelveticaNeueCyr;
+    font-weight: 700;
+    letter-spacing: 0.43px;
+    line-height: 14.06px;
+    color: #fff;
+    font-size: 16px;
+    padding: 5px;
+    border: 2px solid white;
+}
+
+@media (min-width: 480px) {
+    .chart__thead-th {
+      font-size: 22px;
+      padding: 10px;
+    }
+  }

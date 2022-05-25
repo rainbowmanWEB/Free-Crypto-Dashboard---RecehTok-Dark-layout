@@ -1,0 +1,11 @@
+.chart__plank-info-color {
+    width: 15px;
+    height: 15px;
+}
+
+@media (min-width: 1600px) {
+    .chart__plank-info-color {
+      width: calc(15px + 0.4vw);
+      height: calc(15px + 0.4vw);
+    }
+}

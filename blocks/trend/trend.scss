@@ -1,0 +1,13 @@
+.trend {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 20px 64px;
+    width: 100%;
+}
+
+@media (min-width: 1000px) {
+    .trend {
+        width: 68%;
+    }
+}

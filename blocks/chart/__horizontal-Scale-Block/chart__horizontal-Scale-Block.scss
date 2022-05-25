@@ -1,0 +1,24 @@
+.chart__horizontal-Scale-Block {
+    display: flex;
+    justify-content: space-between;
+    font-family: HelveticaNeueCyr;
+    font-weight: 400;
+    letter-spacing: 0.43px;
+    line-height: 14.06px;
+    color: $notificationsTimeColor;
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .chart__horizontal-Scale-Block {
+      display: flex;
+    }
+  }
+
+  @media (min-width: 1600px) {
+    .chart__horizontal-Scale-Block {
+      font-size: calc(12px + 0.4vw);
+      letter-spacing: calc(0.43px + 00.1vw);
+      line-height: calc(14px + 0.1vw);
+    }
+  }

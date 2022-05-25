@@ -1,0 +1,19 @@
+.trend__chart path{
+    stroke-width: 2px;
+}
+
+#trend__chart-mini-btc #graph-mini {
+    stroke: url(#gradient-btc);
+}
+
+#trend__chart-mini-eth #graph-mini {
+    stroke: url(#gradient-eth);
+}
+
+#trend__chart-mini-ltc #graph-mini {
+    stroke: url(#gradient-ltc);
+}
+
+#trend__chart-mini-doge #graph-mini {
+    stroke: url(#gradient-doge);
+}

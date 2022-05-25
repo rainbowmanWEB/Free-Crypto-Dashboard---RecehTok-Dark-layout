@@ -1,0 +1,9 @@
+.chart__plank-info-elem {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 10px;
+    background: $sidebarBackgroundGradient1;
+    padding: 3px;
+}

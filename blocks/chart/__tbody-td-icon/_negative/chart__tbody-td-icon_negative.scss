@@ -1,0 +1,4 @@
+.chart__tbody-td-icon_negative {
+    fill: lighten($chartTbodyTdNegativeColor, 10%);
+    transform: rotate(90deg);
+}

@@ -1,4 +1,13 @@
 .big-chart__wrap {
     width: 100%;
     background: linear-gradient(180deg, $bigChartWrapBg1 , $bigChartWrapBg2), url('../images/big-chart-bg.png');
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+@media (min-width: 768px) {
+    .big-chart__wrap {
+        background: none;
+        padding-left: 50px;
+    }
 }

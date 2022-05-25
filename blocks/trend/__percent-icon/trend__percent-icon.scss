@@ -1,0 +1,18 @@
+.trend__percent-icon {
+    width: 20px;
+    height: 20px;
+}
+
+@media (min-width: 768px) {
+    .trend__percent-icon {
+        width: 12px;
+        height: 12px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .trend__percent-icon {
+        width: calc(12px + 0.7vw);
+        height: calc(12px + 0.7vw);
+    }
+}

@@ -1,0 +1,28 @@
+.trend__elem {
+    flex-basis: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px 1.5%;
+    justify-content: space-between;
+    cursor: pointer;
+
+    &:hover .trend__name-wrap{
+        opacity: 0.8;
+    }
+
+    &:hover .trend__number{
+        opacity: 1;
+    }
+}
+
+@media (min-width: 480px) {
+    .trend__elem {
+        flex-basis: 45%;
+    }
+}
+
+@media (min-width: 968px) {
+    .trend__elem {
+        flex-basis: 30%;
+    }
+}

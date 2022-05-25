@@ -1,0 +1,25 @@
+.trend__number {
+    font-family: HelveticaNeueCyr;
+    font-weight: 400;
+    font-size: 1.5em;
+    opacity: 0.7;
+    color: $logoColor;
+    margin-top: 10px;
+    flex-basis: 100%;
+}
+
+@media (min-width: 1440px) {
+    .trend__number {
+        font-size: 17px;
+        line-height: 20px;
+        margin-top: 15px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .trend__number {
+        font-size: calc(17px + 0.7vw);
+        line-height: calc(20px + 0.7vw);
+        margin-top: calc(15px + 0.3vw);
+    }
+}

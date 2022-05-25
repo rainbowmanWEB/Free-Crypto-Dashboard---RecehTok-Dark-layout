@@ -1,0 +1,9 @@
+.chart__table {
+    border: 2px solid white;
+}
+
+@media (min-width: 768px) {
+    .chart__table {
+      display: none;
+    }
+  }

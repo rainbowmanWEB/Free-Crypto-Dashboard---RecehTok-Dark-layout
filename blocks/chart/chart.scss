@@ -17,6 +17,10 @@
     animation: lineani 1.3s linear forwards;
   }
 
+  .big-chart-line {
+    display: none;
+  }
+
   .chart-line-mini path{
     stroke: url(#gradient-1);
     stroke-width: 6;
@@ -81,7 +85,6 @@
     height: auto;
     background-color: #1e2730;
     display: inline-block;
-    float: left;
     position: relative;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -102,3 +105,11 @@
   .chart-svg {
     position: relative;
   }
+
+  @media (min-width: 768px) {
+    .big-chart-line {
+      display: block;
+    }
+  }
+
+  

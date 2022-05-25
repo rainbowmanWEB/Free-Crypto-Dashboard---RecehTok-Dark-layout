@@ -1,0 +1,31 @@
+.chart__verical-Scale-Block {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    height: 100%;
+    padding-bottom: 17px;
+    font-family: HelveticaNeueCyr;
+    font-weight: 400;
+    letter-spacing: 0.43px;
+    line-height: 14.06px;
+    color: $notificationsTimeColor;
+    font-size: 12px;
+    display: none;
+  }
+
+  @media (min-width: 768px) {
+    .chart__verical-Scale-Block {
+      display: flex;
+    }
+  }
+
+  @media (min-width: 1600px) {
+    .chart__verical-Scale-Block {
+      font-size: calc(12px + 0.4vw);
+      padding-bottom: calc(17px + 0.1vw);
+      letter-spacing: calc(0.43px + 00.1vw);
+      line-height: calc(14px + 0.1vw);
+    }
+  }
