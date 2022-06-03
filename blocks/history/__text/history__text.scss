@@ -1,0 +1,23 @@
+.history__text {
+    font-family: HelveticaNeueCyr;
+    letter-spacing: 0.3px;
+    color: $historyTextColor;
+    font-size: 1em;
+    line-height: 1.1em;
+    flex-basis: 40%;
+    padding: 0 3px;
+}
+
+@media (min-width: 1440px) {
+    .history__text {
+        font-size: 12px;
+        line-height: 14px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .history__text {
+        font-size: calc(12px + 0.6vw);
+        line-height: calc(14px + 0.6vw);
+    }
+}

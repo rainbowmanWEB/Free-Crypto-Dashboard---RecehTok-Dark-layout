@@ -1,0 +1,23 @@
+.history__date {
+    letter-spacing: 0.392857px;
+    font-size: 1em;
+    line-height: 1.1em;
+    font-family: HelveticaNeueCyr;
+    color: $notificationsTimeColor;
+    font-size: 1em;
+    line-height: 1.1em;
+}
+
+@media (min-width: 1440px) {
+    .history__date {
+        font-size: 11px;
+        line-height: 13px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .history__date {
+        font-size: calc(12px + 0.6vw);
+        line-height: calc(14px + 0.6vw);
+    }
+}

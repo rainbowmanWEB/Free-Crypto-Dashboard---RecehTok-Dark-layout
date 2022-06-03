@@ -1,12 +1,12 @@
 .trend {
-    display: flex;
+    display: inline-flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     padding: 20px 64px;
     width: 100%;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 969px) {
     .trend {
         width: 68%;
     }

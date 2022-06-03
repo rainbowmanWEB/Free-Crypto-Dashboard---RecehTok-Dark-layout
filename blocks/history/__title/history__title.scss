@@ -1,22 +1,22 @@
-.trend__title {
+.history__title {
     text-transform: uppercase;
     font-size: 1em;
     line-height: 1.2em;
     letter-spacing: 0.02em;
     color: $notificationsTitleColor;
     font-family: HelveticaNeueCyr;
-    flex-basis: 100%;
+    flex-basis: 50%;
 }
 
 @media (min-width: 1440px) {
-    .trend__title {
+    .history__title {
         font-size: 12px;
         line-height: 14px;
     }
 }
 
 @media (min-width: 1600px) {
-    .trend__title {
+    .history__title {
         font-size: calc(12px + 0.6vw);
         line-height: calc(14px + 0.6vw);
         letter-spacing: calc(0.02em + 0.06vw);

@@ -1,0 +1,29 @@
+.history__see-all {
+    text-decoration: none;
+    font-family: HelveticaNeueCyr;
+    font-weight: 400;
+    color: $alertFrameHistoryLinkColor;
+    text-align: right;
+    line-height: 16px;
+    font-size: 1rem;
+    flex-basis: 50%;
+
+    &:hover {
+        text-decoration: underline;
+    }
+
+}
+
+@media (min-width: 1440px) {
+    .history__see-all {
+        font-size: 13.5px;
+        margin-top: 38px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .history__see-all {
+        font-size: calc(13.5px + 0.7vw);
+        margin-top: calc(38px + 0.2vw);
+    }
+}

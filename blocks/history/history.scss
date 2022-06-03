@@ -1,0 +1,14 @@
+.history {
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: baseline;
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+
+@media (min-width: 969px) {
+    .history {
+        width: 31%;
+    }
+}

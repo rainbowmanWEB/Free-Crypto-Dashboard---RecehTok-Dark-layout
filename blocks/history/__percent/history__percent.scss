@@ -1,0 +1,21 @@
+.history__percent {
+    font-family: HelveticaNeueCyr;
+    font-weight: 500;
+    margin: 0 5px;
+    line-height: 17px;
+    font-size: 1rem;
+}
+
+
+
+@media (min-width: 1440px) {
+    .history__percent {
+        font-size: 11px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .history__percent {
+        font-size: calc(11px + 0.6vw);
+    }
+}
