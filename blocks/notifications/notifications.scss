@@ -3,16 +3,17 @@
     background: linear-gradient(
         135deg, $notificationsGradient1, $notificationsGradient2, $notificationsGradient3);
     display: none;
-    position: absolute;
+    position: fixed;
     left: 40px;
-    top: 66px;
+    top: 41px;
     padding: 10px 0 5px 0;
+    overflow-y:scroll;
+    height: 80%;
 }
 
 @media (min-width: 480px) {
     .notifications {
        left: auto;
-        top: 16%;
         right: 5%;
         padding: 15px 0 10px 0;
     }
@@ -21,11 +22,16 @@
 @media (min-width: 768px) {
     .notifications {
         padding: 20px 0 15px 0;
+        position: absolute;
+        height: auto;
+        overflow-y:auto;
+        top: 5%;
     }
 }
 
-@media (min-width: 968px) {
+@media (min-width: 969px) {
     .notifications {
+        top: 16%;
         padding: 25px 0 20px 0;
     }
 }

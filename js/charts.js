@@ -264,7 +264,6 @@ export default class chart {
         let $tableHead = document.createElement('thead');
         $tableHead.classList.add('chart__thead');
         let tHeadArr = ['time'];
-        console.log(pointsArr);
         pointsArr.map((point) => {
             tHeadArr.push(point);
         })
@@ -334,7 +333,6 @@ export default class chart {
         for (let i = this.crypts[points].length - pointsNumber; i < this.crypts[points].length; i++) {
             minipoints.push(this.crypts[points][i]);
         }
-        //console.log(this.crypts[points]);
         this.drawLineGraph(graph, minipoints, container, id, true);
     }
 
@@ -351,7 +349,6 @@ export default class chart {
                 }
                 minPoint = onepoint < minPoint ? onepoint : minPoint;
             }
-            //console.log(maxPoint);
             this.drawLineGraph(graph, this.crypts[point], container, id[count], false, minPoint, maxPoint);
             count++;
             maxLenghtPoints = this.crypts[point].length > maxLenghtPoints ? this.crypts[point].length : maxLenghtPoints;

@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="image/x-icon" rel="shortcut icon" href="img/favicon.ico">
+    <link type="image/png" sizes="16x16" rel="icon" href="img/favicon-16x16.png">
+    <link type="image/png" sizes="32x32" rel="icon" href="img/favicon-32x32.png">
+    <link type="image/png" sizes="96x96" rel="icon" href="img/favicon-96x96.png">
+    <link type="image/png" sizes="120x120" rel="icon" href="img/favicon-120x120.png">
+    <link type="image/png" sizes="192x192" rel="icon" href="img/favicon-192x192.png">
     <title>Document</title>
 </head>
 <body class="body">
@@ -13,7 +19,7 @@
             <a href="#" class="logo"><span class="logo__bold">Receh</span><span class="logo__light">tok</span></a>
             <nav class="navigation">
                 <ul>
-                    <li class="navigation__elem">
+                    <li class="navigation__elem navigation__elem_active">
                         <a href="" class="navigation__link navigation__link_active">
                             <svg class="navigation__icon">
                                 <use href="img/dashboard.svg#da"></use>
@@ -72,8 +78,8 @@
                         <use href="img/menu.svg#Layer_1"></use>
                     </svg>
                 </a>
-                <a href="" class="header__notification">
-                    <svg class="header__notification-icon">
+                <a href="" class="header__notification header__notification_active">
+                    <svg class="header__notification-icon header__notification-icon_active">
                         <use href="img/notification.svg#notification"></use>
                     </svg>
                     <span class="header__notification-number">15</span>
@@ -402,7 +408,7 @@
         </main>
         
     </div>
-    <div class="alert-frame">
+    <div class="alert-frame alert-frame_active">
         <h2 class="hidden-title">alert</h2>
         <svg class="alert-frame__icon" id="da" viewBox="0 0 354 288" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g id="Illustrations">
@@ -542,7 +548,7 @@
         <a href="" class="alert-frame__history-link">See history</a>
         <a href="" class="alert-frame__dismis">Dismiss</a>
     </div>
-    <div class="notifications ">
+    <div class="notifications">
         <h2 class="notifications__title">NOTIFICATIONS</h2>
         <div class="notifications__elem notifications__elem_darken">
             <picture class="notifications__avatar">

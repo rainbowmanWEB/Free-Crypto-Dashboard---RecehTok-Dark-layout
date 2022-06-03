@@ -3,9 +3,21 @@
 		box-shadow: 0 0 1px 1px $navigationLinkActiveColor;
 	}
 	50% {
-		box-shadow: 0 0 9px 2px $navigationLinkActiveColor;
+		box-shadow: 0 0 calc(9px + 0.3vw) 2px $navigationLinkActiveColor;
 	}
     100% {
 		box-shadow: 0 0 1px 1px $navigationLinkActiveColor;
+	}
+}
+
+@keyframes headerNotificationIconActive {
+	0% {
+		transform: rotate(15deg);
+	}
+	50% {
+		transform: rotate(-15deg);
+	}
+    100% {
+		transform: rotate(15deg);
 	}
 }
